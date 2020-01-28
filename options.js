@@ -1,6 +1,6 @@
 var options = {
   chart: {
-    height: 'auto',
+    height: '95%',
     type: 'heatmap',
   },
   series: series,
