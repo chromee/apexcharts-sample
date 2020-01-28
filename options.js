@@ -10,7 +10,7 @@ var options = {
         ranges: [{
           from: -100,
           to: 1,
-          color: '#aaa',
+          color: '#eeeeee',
           name: 'null',
         },
         {
