@@ -8,19 +8,25 @@ var options = {
     heatmap: {
       colorScale: {
         ranges: [{
-          from: 0,
+          from: -100,
+          to: 1,
+          color: '#aaa',
+          name: 'null',
+        },
+        {
+          from: 1,
           to: 45,
           color: '#FFB200',
           name: 'low (0~45 fps)',
         },
         {
-          from: 46,
+          from: 45,
           to: 60,
           color: '#128FD9',
           name: 'medium (46~60 fps)',
         },
         {
-          from: 61,
+          from: 60,
           to: 80,
           color: '#00A100',
           name: 'high (61~80 fps)',
